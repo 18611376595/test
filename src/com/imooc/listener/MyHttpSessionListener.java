@@ -21,6 +21,7 @@ public class MyHttpSessionListener implements HttpSessionListener {
 		String sessionId = hse.getSession().getId();
 		System.out.println("session destroyed,session id:"+sessionId);
 		System.out.println("test");
+		System.out.println("test1");
 	}
 
 }
