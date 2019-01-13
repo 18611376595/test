@@ -15,6 +15,7 @@ public class MyFirstListener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent sce) {
 		System.out.println("context initialized... ...");
 		System.out.println("test");
+		System.out.println("test");
 
 	}
 
